@@ -13,7 +13,7 @@ module Db =
     let private peopleStorage = new Dictionary<int, Person>()
     
     let getPeople () = 
-        peopleStorage.Values |> Seq.map (fun p -> p)
+        peopleStorage.Values |> Seq.map id
 
     let createPerson person =
         let id = peopleStorage.Values.Count + 1
