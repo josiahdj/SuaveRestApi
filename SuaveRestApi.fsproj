@@ -59,7 +59,6 @@
     <Compile Include="Restful.fs" />
     <Compile Include="App.fs" />
     <None Include="App.config" />
-    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
